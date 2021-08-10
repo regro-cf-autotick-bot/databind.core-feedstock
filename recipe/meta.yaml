@@ -1,5 +1,5 @@
 {% set name = "databind.core" %}
-{% set version = "1.1.2" %}
+{% set version = "1.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/databind.core-{{ version }}.tar.gz
-  sha256: 8595d3f8b775492942c414e262ae5ddabd65118e5cc02e89bf8c53afebdc35cd
+  sha256: 8cdb8bb43bb046b764a6101f7c7fd6bd47d40c464a938d964ceaf8c5cd01361e
 
 build:
   number: 0
