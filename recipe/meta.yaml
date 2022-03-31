@@ -21,10 +21,7 @@ requirements:
     - python >=3.7,<4.0
   run:
     - deprecated >=1.2.12,<2.0.0
-    - nr.optional >=0.1.1,<1.0.0
-    - nr.parsing.date >=1.0.1,<2.0.0
-    - nr.preconditions >=0.0.4,<1.0.0
-    - nr.stream >=0.1.1,<1.0.0
+    - nr.util >=0.8.3,<1.0.0
     - python >=3.7,<4.0
     - typing-extensions <4.0.0,>=3.10.0
 
@@ -36,6 +33,7 @@ test:
     - pip check
   requires:
     - pip
+    - pytest
 
 about:
   home: https://github.com/NiklasRosenstein/python-databind
