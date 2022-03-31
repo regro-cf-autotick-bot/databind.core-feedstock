@@ -33,7 +33,6 @@ test:
     - pip check
   requires:
     - pip
-    - pytest
 
 about:
   home: https://github.com/NiklasRosenstein/python-databind
